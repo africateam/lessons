@@ -61,6 +61,35 @@ and finally run npm start to see your app live on localhost:
 npm start
 ```
 
+### Step 6: Create basic infrastructre
+
+Go to `src` folder and create folders
+
+```
+ |- /src
+   |- assets
+   |- components
+     |- button
+     |- card
+     |- filter
+     |- header
+     |- footer
+     |- navbar
+   |- pages
+     |- create
+     |- explorer
+     |- home
+     |- item
+     |- profile
+   |- scripts
+    
+```
+
+
+### Step 5: Explore library for integrating wallet
+
+https://github.com/SVOIcom/everscale-connect-backend
+
 
 
 
