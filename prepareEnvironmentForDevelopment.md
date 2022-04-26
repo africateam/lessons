@@ -5,6 +5,7 @@
 ### Step 1: Instal Git
 
 ```
+sudo apt update
 sudo apt install git
 git --version
 ```
@@ -32,7 +33,41 @@ Enter here your Title
 Example: `newkey`
 Enter here you ssh key and press Add SSH Key
 
-### Step 2: Instal NVM Manager to run Node JS Apps
+### Step 2: Install NVM Manager & NPM to run Node JS Apps
+
+```
+sudo apt install curl
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+nvm install node 
+source ~/.profile 
+```
+
+### Step 3: Install for Backend API
+https://www.postgresql.org/download/
+https://www.pgadmin.org/download/
+
+### Step 4: Create simple React JS App
+
+```
+npx create-react-app marketplace
+```
+Then go to your folder
+```
+cd marketplace
+```
+and finally run npm start to see your app live on localhost:
+
+```
+npm start
+```
+
+
+
+
+
+
+
+
 
 
 
