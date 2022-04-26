@@ -48,19 +48,30 @@ source ~/.profile
 ```
 
 ### Step 3: Install for Backend API
+```
+mkdir marketplace
+cd marketplace
+```
+
 https://www.postgresql.org/download/
 https://www.pgadmin.org/download/
 
 Install Node JS Express
+```
+mkdir backend
+cd backend
+npm i express
+```
+
 
 ### Step 4: Create simple React JS App
 
 ```
-npx create-react-app marketplace
+npx create-react-app frontend
 ```
 Then go to your folder
 ```
-cd marketplace
+cd frontend
 ```
 and finally run npm start to see your app live on localhost:
 
