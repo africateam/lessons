@@ -2,6 +2,11 @@
 
 ## Prepare environment 
 
+### Install IDE
+
+Atom https://atom.io/
+Visual Studio https://visualstudio.microsoft.com/
+
 ### Step 1: Instal Git
 
 ```
