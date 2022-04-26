@@ -46,6 +46,8 @@ source ~/.profile
 https://www.postgresql.org/download/
 https://www.pgadmin.org/download/
 
+Install Node JS Express
+
 ### Step 4: Create simple React JS App
 
 ```
